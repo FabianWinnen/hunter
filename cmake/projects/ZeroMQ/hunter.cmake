@@ -27,6 +27,18 @@ hunter_add_version(
   SHA1
   be57db45f4f998c04d1804132b1302f923405fa4
   )
+  
+    
+hunter_add_version(
+  PACKAGE_NAME
+  ZeroMQ
+  VERSION
+  "4.1.4-uwp"
+  URL
+  "https://github.com/martin---/libzmq/archive/v4.2.1-uwp-5.tar.gz"
+  SHA1
+  762887354f20ff2a685561c28d852e18f056a585
+)
 
 hunter_cmake_args(ZeroMQ CMAKE_ARGS ZMQ_BUILD_TESTS=OFF)
 hunter_pick_scheme(DEFAULT url_sha1_cmake) 
