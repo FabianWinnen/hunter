@@ -58,7 +58,7 @@ hunter_add_version(
         URL
         "https://github.com/fwinnen/protobuf/archive/v3.3.0-hunter.tar.gz"
         SHA1
-        e89c5f75189d04c03b9ec2dcd41e53d9
+        275e79a50804cd63ca8c2fb13f57ae62c0e94a2c
 )
 
 if(ANDROID OR IOS)
