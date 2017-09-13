@@ -35,9 +35,9 @@ hunter_add_version(
   VERSION
   "4.2.3-uwp"
   URL
-  "https://github.com/fwinnen/libzmq/archive/v4.2.3-p2.tar.gz"
+  "https://github.com/fwinnen/libzmq/archive/v4.2.3-p3.tar.gz"
   SHA1
-  f63cba65c0a65897a05906007ffa0cfdf602f18f
+  8e9ebd269cfbca2da3adb1b518af8d55fd87ccc1
 )
 
 hunter_cmake_args(ZeroMQ CMAKE_ARGS ZMQ_BUILD_TESTS=OFF)
