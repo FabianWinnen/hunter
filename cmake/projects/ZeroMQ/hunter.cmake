@@ -33,9 +33,9 @@ hunter_add_version(
   PACKAGE_NAME
   ZeroMQ
   VERSION
-  "4.1.4-uwp"
+  "4.2.3-uwp"
   URL
-  "https://github.com/martin---/libzmq/archive/v4.2.1-uwp-5.tar.gz"
+  "https://github.com/fwinnen/libzmq/archive/v4.2.3.tar.gz"
   SHA1
   762887354f20ff2a685561c28d852e18f056a585
 )
