@@ -37,7 +37,7 @@ hunter_add_version(
   URL
   "https://github.com/fwinnen/libzmq/archive/v4.2.3.tar.gz"
   SHA1
-  762887354f20ff2a685561c28d852e18f056a585
+  62d98c09b7ae87f5cec97b9bd26165c4219bba63
 )
 
 hunter_cmake_args(ZeroMQ CMAKE_ARGS ZMQ_BUILD_TESTS=OFF)
