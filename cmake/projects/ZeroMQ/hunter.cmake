@@ -27,8 +27,8 @@ hunter_add_version(
   SHA1
   be57db45f4f998c04d1804132b1302f923405fa4
   )
-  
-    
+
+
 hunter_add_version(
   PACKAGE_NAME
   ZeroMQ
