@@ -9,6 +9,17 @@ hunter_add_version(
     PACKAGE_NAME
     czmq
     VERSION
+    "4.2.0"
+    URL
+    "https://github.com/fwinnen/czmq/archive/v4.2.0.tar.gz"
+    SHA1
+    b3e20ced826ecf1625a79945ca338f40ca1cf9fe
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    czmq
+    VERSION
     "4.0.2-p1"
     URL
     "https://github.com/hunter-packages/czmq/archive/v4.0.2-p1.tar.gz"
