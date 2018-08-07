@@ -9,6 +9,17 @@ hunter_add_version(
     PACKAGE_NAME
     czmq
     VERSION
+    "4.2.0-iosfix-1"
+    URL
+    "https://github.com/jhennrich/czmq/releases/download/v4.2.0-iosfix-1/czmq-4.2.0-iosfix.tar.gz"
+    SHA1
+    3a0d653cc120ca5a0d8bd83e2e053d80fd18c048
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    czmq
+    VERSION
     "4.2.0"
     URL
     "https://github.com/fwinnen/czmq/archive/v4.2.0.tar.gz"
