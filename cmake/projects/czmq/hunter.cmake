@@ -5,6 +5,18 @@ include(hunter_cacheable)
 include(hunter_download)
 include(hunter_pick_scheme)
 
+
+hunter_add_version(
+    PACKAGE_NAME
+    czmq
+    VERSION
+    "4.2.0-iosfix-2"
+    URL
+    "https://github.com/jhennrich/czmq/releases/download/v4.2.0-iosfix-2/czmq-4.2.0.tar.gz"
+    SHA1
+    f0cd748648db572f09f9f6362532c8015822f0c7
+)
+
 hunter_add_version(
     PACKAGE_NAME
     czmq
