@@ -14,7 +14,7 @@ hunter_add_version(
     URL
     "https://github.com/jhennrich/czmq/releases/download/v4.2.0-iosfix-2/czmq-4.2.0.tar.gz"
     SHA1
-    f0cd748648db572f09f9f6362532c8015822f0c7
+    3f53977497284cb6be44b0f73ca23ea233651943
 )
 
 hunter_add_version(
