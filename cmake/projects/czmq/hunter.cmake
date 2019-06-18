@@ -5,6 +5,16 @@ include(hunter_cacheable)
 include(hunter_download)
 include(hunter_pick_scheme)
 
+hunter_add_version(
+    PACKAGE_NAME
+    czmq
+    VERSION
+    "4.2.0-p2"
+    URL
+    "https://github.com/fwinnen/czmq/releases/download/v4.2.0-p2/czmq-4.2.0-p2.tar.gz"
+    SHA1
+    d7d5a71f43a737441dff8d59b2cd585916fdd875
+)
 
 hunter_add_version(
     PACKAGE_NAME
