@@ -152,6 +152,17 @@ hunter_add_version(
     PACKAGE_NAME
     Boost
     VERSION
+    "1.70.0-p1"
+    URL
+    "https://github.com/fwinnen/boost/archive/v1.70.0-p1.tar.gz"
+    SHA1
+    2587f2100a13eab30bc341d1f494f75ceec1ff78
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    Boost
+    VERSION
     "1.71.0-p0"
     URL
     "https://github.com/cpp-pm/boost/archive/v1.71.0-p0.tar.gz"
