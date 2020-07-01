@@ -50,6 +50,17 @@ hunter_add_version(
     38e2cd74c0acfe6e5667c27a73112373a922dadf
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    ZeroMQ
+    VERSION
+    "4.2.3-p5"
+    URL
+    "https://github.com/fwinnen/libzmq/archive/v4.2.3-hunter-6.tar.gz"
+    SHA1
+    c043ce6b70959dedc8c6759d54604242b8391757
+)
+
 hunter_cmake_args(ZeroMQ CMAKE_ARGS ZMQ_BUILD_TESTS=OFF)
 hunter_pick_scheme(DEFAULT url_sha1_cmake) 
 hunter_cacheable(ZeroMQ)
