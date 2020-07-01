@@ -90,6 +90,7 @@ macro(hunter_setup_msvc)
     string(COMPARE EQUAL "${_architecture_id}" "X86" _is_x86)
     string(COMPARE EQUAL "${_architecture_id}" "x64" _is_x64)
     string(COMPARE EQUAL "${_architecture_id}" "ARMV7" _is_arm)
+    string(COMPARE EQUAL "${_architecture_id}" "ARM64" _is_arm64)
 
     if(_is_x86)
       set(HUNTER_MSVC_ARCH "x86")
@@ -97,6 +98,8 @@ macro(hunter_setup_msvc)
       set(HUNTER_MSVC_ARCH "amd64")
     elseif(_is_arm)
       set(HUNTER_MSVC_ARCH "x86_arm")
+    elseif(_is_arm64)
+      set(HUNTER_MSVC_ARCH "amd64_arm64")
     else()
       hunter_internal_error(
           "Unexpected MSVC_*_ARCHITECTURE_ID: '${_architecture_id}'"
